@@ -135,8 +135,8 @@ ol {
 }
 
 .search-form__fieldset-title {
+  font-size: 18px;
   font-weight: 400;
-  font-size: inherit;
   margin-bottom: 5px;
 }
 
@@ -170,7 +170,7 @@ ol {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 30px;
 }
 
 .button {
@@ -212,7 +212,6 @@ ol {
   flex-shrink: 0;
 }
 
-
 .content__list-container {
   height: 298px;
   width: 399px;
@@ -221,6 +220,7 @@ ol {
   overflow: auto;
   gap: 30px;
   position: relative;
+  padding: 3px;
 }
 
 .content__details {
@@ -255,10 +255,6 @@ ol {
 
 .content__accent {
   color: #545050;
-}
-
-.content__list-item {
-  padding: 3px;
 }
 
 .content__card-link {
@@ -303,7 +299,6 @@ ol {
 }
 
 .content__video-card-description {
-  font-size: inherit;
   line-height: 90%;
   line-clamp: -webkit- 2;
 }
