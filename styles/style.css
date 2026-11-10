@@ -118,7 +118,6 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-  cursor: pointer;
 }
 
 .search-form__textfield::placeholder {
@@ -300,5 +299,9 @@ ol {
 
 .content__video-card-description {
   line-height: 90%;
-  line-clamp: -webkit- 2;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden
 }
